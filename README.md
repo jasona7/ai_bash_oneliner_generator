@@ -1,6 +1,6 @@
 # AI Bash One-liner Generator
 
-AI Bash One-liner Generator is a web application that uses OpenAI's GPT-4 AI model to transform requests in any human language into Bash one-liner commands for Linux systems. It also provides a risk assessment, ranking the potential harm the command could cause.
+AI Bash One-liner Generator is an app built using the Langchain bash Tool package to transform requests in any human language into Bash one-liner commands for Linux systems. It also provides a risk assessment with a scpre to indicate potential for harm.
 
 ## Table of Contents
 
