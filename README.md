@@ -36,7 +36,7 @@ python app.py
 
 ## Screenshots
 
-![screenshot1](./screenshots/screenshot1.jng)
+![screenshot1](./screenshots/screenshot1.jpg)
 
 ## Contributing
 
