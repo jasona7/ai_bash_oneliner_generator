@@ -36,7 +36,7 @@ python app.py
 
 ## Screenshots
 
-![screenshot1](./screenshots/screenshot1.png)
+![screenshot1](https://github.com/jasona7/ai_bash_oneliner_generator/blob/main/screenshots/screenshot1.png?raw=true)
 
 ## Contributing
 
