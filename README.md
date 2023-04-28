@@ -19,7 +19,7 @@ To set up the AI Bash One-liner Generator, follow these steps:
 
 2. Install the required packages:
 
-pip install -r requirements.txt
+pip install -r Flask langchain
 
 3. Run the web application:
 
