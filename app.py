@@ -57,18 +57,13 @@ def index():
         question = request.form["question"]
 
         try:
-            #result = bash_chain.run(question)
-            #result = bash_chain.run(question)
-            #harm_level = extract_harm_level(result)
             result = bash_chain.run(question)
             result, harm_level = extract_harm_level(result)
 
             print(harm_level)
-            #command_history.insert(0, result)
             command_history.insert(0, {"question": question, "result": result, "harm_level": harm_level})
             if len(command_history) > 5:
                 command_history.pop()
-            #recent_requests.appendleft({"question": question, "result": result})
             recent_requests.appendleft({"question": question, "result": result, "harm_level": harm_level})
         except ValueError as e:
             error_message = str(e)
